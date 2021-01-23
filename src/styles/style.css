@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Ubuntu', sans-serif
+}
+
+.header-covid {
+    padding: 12px;
+    background:black;
+    color: #FFFFFF;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header-covid p {
+    margin-bottom: 3.5px;
+}
+.header-covid p:hover {
+    color: #B1B1B1;
+    text-decoration: underline #B1B1B1;
+}
+
+.section-main {
+    height: 95vh;
+    background:url(../img/test2.jpg) no-repeat center center/cover;
+}
+
+#logo {
+    width: 115px;
+    margin-top: 15px;
+    margin-left: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+.flexed-center {
+    display: flex;
+    justify-content: center;
+}
+.header-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.15rem;
+    margin: 15px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.header-links a:hover {
+    border-bottom: 1px solid white;
+}
+.intro {
+    /* margin-top: 80px; */
+    margin-left: 100px;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    line-height: 90px;
+}
+#last-child-h1 {
+    margin-bottom: -20px;
+}
+.intro h5 {
+    color: black;
+    background: #FFFFFF;
+    display: inline;
+    padding: 12.5px;
+    border-radius:40px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.intro h5:hover {
+    background: #F7F7F7;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: .9rem;
+    border-radius: 25px;
+    margin: auto;
+    width: 45%;
+    background: white;
+    font-size: .8rem;
+    text-align: center;
+}
+.navbar h4 {
+    color: grey;
+}
+#item-1, #item-2, #item-3,#item-4 {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+/* .search-glass {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 3rem;
+    background: red;
+} */
+
+#mag-glass {
+    display: table;
+    margin: auto;
+    background: red;
+    color: white;
+    font-size: 3rem;
+    padding: 15px;
+    margin-top: 35px;
+    border-radius: 50%;
+}
+
+#mag-glass:hover {
+    animation: mymove .95s forwards;
+}
+
+@keyframes mymove {
+    from {background-color: red;
+    color: white;}
+    to {background-color: white;
+    color: red;}
+  }
