@@ -126,3 +126,23 @@ html, body {
     to {background-color: white;
     color: red;}
   } */
+
+  #w3review {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 1.3rem;
+      visibility: hidden;
+      width: 22.5%;
+      height: 35px;
+      resize: none;
+      border: none;
+      border-radius: 20px;
+  }
+
+  textarea {
+      padding: 5px;
+  }
