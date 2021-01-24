@@ -134,9 +134,9 @@ html, body {
       align-items: center;
       margin: auto;
       margin-top: 20px;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       visibility: hidden;
-      width: 22.5%;
+      width: 25%;
       height: 35px;
       resize: none;
       border: none;
@@ -144,5 +144,6 @@ html, body {
   }
 
   textarea {
-      padding: 5px;
+      padding: 7.5px;
+      font-weight: 600;
   }
