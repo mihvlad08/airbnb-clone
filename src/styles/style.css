@@ -27,7 +27,7 @@ html, body {
 }
 
 .section-main {
-    height: 95vh;
+    height: 100vh;
     background:url(../img/test2.jpg) no-repeat center center/cover;
 }
 
@@ -49,6 +49,7 @@ html, body {
     margin: 15px;
     margin-top: 20px;
     padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
 }
 .header-links a:hover {
     border-bottom: 1px solid white;
@@ -93,32 +94,35 @@ html, body {
     padding-top: 7.5px;
     padding-bottom: 7.5px;
 }
-
-/* .search-glass {
-    display: inline-flex;
-    justify-content: center;
-    font-size: 3rem;
-    background: red;
-} */
-
 #mag-glass {
     display: table;
     margin: auto;
-    background: red;
-    color: white;
-    font-size: 3rem;
-    padding: 15px;
-    margin-top: 35px;
+    color: #1D9AF2;
+    background-color: #292D3E;
+    border: 1px solid #1D9AF2;
     border-radius: 50%;
+    padding: 12.5px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size:2.3rem;
+    box-shadow: 0 0 4px #999;
+    background-position: center;
+    transition: background 0.8s;
 }
 
 #mag-glass:hover {
-    animation: mymove .95s forwards;
+    background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    color: white;
 }
+/* #mag-glass:active{
+    background-color:#292d3e;
+    background-size: 100%;
+    transition: background 0s;
+} */
 
-@keyframes mymove {
+/* @keyframes mymove {
     from {background-color: red;
     color: white;}
     to {background-color: white;
     color: red;}
-  }
+  } */
