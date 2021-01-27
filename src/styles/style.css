@@ -28,7 +28,7 @@ html, body {
 }
 
 .section-main {
-    height: 100vh;
+    height: 95vh;
     background:url(../img/test2.jpg) no-repeat center center/cover;
 }
 
@@ -138,25 +138,28 @@ html, body {
 .section-2 {
     height: 600px;
 }
-  .row-first {
-      margin-top: 25px;
+.row-first, .row-two {
+      margin-top: 35px;
       font-size: 1.15rem;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-around;
       align-items: center;
-  }
-  .row-first img {
+}
+.row-two {
+      margin-top: 20px;
+}
+.row-first img, .row-two img {
       height: 70px;
       border-radius: 10px;
-  }
-  .row-item {
+}
+.row-item {
       display: flex;
       flex-direction: row;
       align-items: center;
-  }
-  .row-img-text{
+}
+.row-img-text{
       margin-left: 5px;
-  }
-  .row-img-text h5 {
+}
+.row-img-text h5 {
       font-weight: 300;
-  }
+    }
