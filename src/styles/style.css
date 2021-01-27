@@ -115,7 +115,8 @@ html, body {
     background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
     color: white;
 }
-  #w3review {
+
+#w3review {
       text-align: center;
       display: flex;
       justify-content: center;
@@ -129,18 +130,20 @@ html, body {
       resize: none;
       border: none;
       border-radius: 20px;
-  }
-
-  textarea {
+}
+textarea {
       padding: 7.5px;
       font-weight: 600;
-  }
+}
 .section-2 {
-    height: 800px;
+    margin-top: -5px;
+    padding-bottom: 50px;
+    /* background: red; */
 }
 .row-first, .row-two {
       margin-top: 35px;
-      font-size: 1.15rem;
+      font-size: 1.05rem;
+      /* margin-right: 120px; */
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -182,5 +185,39 @@ html, body {
 
 }
 .house-item {
+    cursor: pointer;
+}
+
+.section-3 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: black;
+    color: white;
+}
+
+.flex-showcase {
+    display: flex;
+    flex-direction: column;
+    margin-right: 85px;
+    margin-left: 85px;
+}
+.flex-showcase img {
+    height:383px;
+    border-radius: 10px;
+    margin-bottom: 7.5px;
+}
+.flex-showcase h2 {
+    margin-bottom: 1.5px;
+}
+.flex-item-1 {
+    font-size: 1.2rem;
+}
+.flex-item-2 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item-picture {
+    font-size: .85rem;
     cursor: pointer;
 }
