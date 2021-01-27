@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 html, body {
-    font-family: 'Ubuntu', sans-serif
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .header-covid {
@@ -114,19 +115,6 @@ html, body {
     background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
     color: white;
 }
-/* #mag-glass:active{
-    background-color:#292d3e;
-    background-size: 100%;
-    transition: background 0s;
-} */
-
-/* @keyframes mymove {
-    from {background-color: red;
-    color: white;}
-    to {background-color: white;
-    color: red;}
-  } */
-
   #w3review {
       text-align: center;
       display: flex;
@@ -146,4 +134,29 @@ html, body {
   textarea {
       padding: 7.5px;
       font-weight: 600;
+  }
+.section-2 {
+    height: 600px;
+}
+  .row-first {
+      margin-top: 25px;
+      font-size: 1.15rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  .row-first img {
+      height: 70px;
+      border-radius: 10px;
+  }
+  .row-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  .row-img-text{
+      margin-left: 5px;
+  }
+  .row-img-text h5 {
+      font-weight: 300;
   }
