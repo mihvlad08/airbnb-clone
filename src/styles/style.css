@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 html, body {
-    font-family: 'Ubuntu', sans-serif
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .header-covid {
@@ -27,7 +28,7 @@ html, body {
 }
 
 .section-main {
-    height: 100vh;
+    height: 95vh;
     background:url(../img/test2.jpg) no-repeat center center/cover;
 }
 
@@ -114,20 +115,8 @@ html, body {
     background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
     color: white;
 }
-/* #mag-glass:active{
-    background-color:#292d3e;
-    background-size: 100%;
-    transition: background 0s;
-} */
 
-/* @keyframes mymove {
-    from {background-color: red;
-    color: white;}
-    to {background-color: white;
-    color: red;}
-  } */
-
-  #w3review {
+#w3review {
       text-align: center;
       display: flex;
       justify-content: center;
@@ -141,9 +130,94 @@ html, body {
       resize: none;
       border: none;
       border-radius: 20px;
-  }
-
-  textarea {
+}
+textarea {
       padding: 7.5px;
       font-weight: 600;
-  }
+}
+.section-2 {
+    margin-top: -5px;
+    padding-bottom: 50px;
+    /* background: red; */
+}
+.row-first, .row-two {
+      margin-top: 35px;
+      font-size: 1.05rem;
+      /* margin-right: 120px; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.row-two {
+      margin-top: 20px;
+}
+.row-first img, .row-two img {
+      height: 70px;
+      border-radius: 10px;
+}
+.row-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}
+.row-img-text{
+      margin-left: 5px;
+}
+.row-img-text h5 {
+      font-weight: 300;
+}
+.accomodations {
+    margin-top: 85px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.accomodations img {
+    height: 285px;
+}
+.accomodations h1 {
+    margin-left: 3.5px;
+}
+.house-pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.house-item {
+    cursor: pointer;
+}
+
+.section-3 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: black;
+    color: white;
+}
+
+.flex-showcase {
+    display: flex;
+    flex-direction: column;
+    margin-right: 85px;
+    margin-left: 85px;
+}
+.flex-showcase img {
+    height:383px;
+    border-radius: 10px;
+    margin-bottom: 7.5px;
+}
+.flex-showcase h2 {
+    margin-bottom: 1.5px;
+}
+.flex-item-1 {
+    font-size: 1.2rem;
+}
+.flex-item-2 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item-picture {
+    font-size: .85rem;
+    cursor: pointer;
+}
