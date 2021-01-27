@@ -136,7 +136,7 @@ html, body {
       font-weight: 600;
   }
 .section-2 {
-    height: 600px;
+    height: 800px;
 }
 .row-first, .row-two {
       margin-top: 35px;
@@ -162,4 +162,25 @@ html, body {
 }
 .row-img-text h5 {
       font-weight: 300;
-    }
+}
+.accomodations {
+    margin-top: 85px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.accomodations img {
+    height: 285px;
+}
+.accomodations h1 {
+    margin-left: 3.5px;
+}
+.house-pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.house-item {
+    cursor: pointer;
+}
