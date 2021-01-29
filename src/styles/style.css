@@ -205,7 +205,7 @@ textarea {
     margin-left: 85px;
 }
 .flex-showcase img {
-    height:383px;
+    width:383px;
     border-radius: 15px;
     margin-bottom: 7.5px;
 }
@@ -225,43 +225,50 @@ textarea {
     cursor: pointer;
 }
 
-footer {
-    display: flex;
-    margin-left: 55px;
-    margin-right:55px;
-    justify-content: space-between;
-    color: black;
-    padding: 25px;
+.section-4 {
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
-footer a{
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-top: 1px solid grey;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.footer a {
     text-decoration: none;
     color: black;
 }
-footer .sub-flex-1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1rem;
-}
-footer .sub-flex-2 {
+.footer-flex-1 {
     display: flex;
     align-items: center;
 }
-.sub-flex-1 h5, .sub-flex-1 a{
-    padding-right: 20.5px;
-    font-weight: 500;
+.footer-flex-1 a, .footer-flex-1 p {
+    padding-right: 17.5px;
 }
-.sub-flex-2 i, .sub-flex-2 a {
-    padding-right: 15px;
+.footer-flex-2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
 }
-.sub-flex-1 a:hover, .sub-flex-2 a:hover, .sub-flex-2 i:hover {
+.footer-flex-2 i {
+    padding-left: 25px;
+}
+.footer-margin-right {
+    margin-right: 80px;
+}
+.underline {
+   text-decoration: underline 1px black; 
+}
+.ron {
+    padding-left: 20px;
+}
+
+.footer a:hover, .footer i:hover {
     color: grey;
-    text-decoration: underline 1px grey;
-}
-.ron, .english {
-    text-decoration: underline;
-    font-weight: 500;
-}
-.fa-facebook-f {
-    margin-left: 35px;
 }
