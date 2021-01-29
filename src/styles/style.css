@@ -190,7 +190,23 @@ textarea {
 .house-item {
     cursor: pointer;
 } */
-
+.accomodations {
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 85px;
+}
+.house-pictures {
+    display: flex;
+    justify-content: space-around;
+}
+.accomodations h1 {
+    margin-left: 2px;
+}
+.house-pictures img {
+    height: 285px;
+}
 .section-3 {
     padding-top: 40px;
     padding-bottom: 50px;
