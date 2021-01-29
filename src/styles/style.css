@@ -177,6 +177,9 @@ textarea {
 .accomodations h1 {
     margin-left: 3.5px;
 }
+.accomodations h3 {
+    margin-top: 3.5px;
+}
 .house-pictures {
     display: flex;
     justify-content: space-around;
@@ -203,7 +206,7 @@ textarea {
 }
 .flex-showcase img {
     height:383px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 7.5px;
 }
 .flex-showcase h2 {
@@ -220,4 +223,9 @@ textarea {
 .flex-item-picture {
     font-size: .85rem;
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    
 }
